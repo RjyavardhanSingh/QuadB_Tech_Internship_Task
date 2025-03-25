@@ -32,7 +32,7 @@ solidity-js-project
 
 1. Clone the repository:
    ```
-   git clone <repository-url>
+   git clone https://github.com/RjyavardhanSingh/QuadB_Tech_Internship_Task.git
    cd solidity-js-project
    ```
 
