@@ -1,0 +1,59 @@
+# Dependency directories
+node_modules/
+.npm/
+
+# Hardhat files
+cache/
+artifacts/
+typechain-types/
+
+# Build outputs
+dist/
+build/
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
+*.log
+
+# Local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Contract deployment addresses
+deployed-contract-address.txt
+blockchain-address.txt
+
+# Coverage directory used by tools like istanbul
+coverage/
+coverage.json
+.coverage_*/
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Hardhat gas reporter
+gasReporterOutput.json
+
+# solidity-coverage
+.coverage_artifacts/
+.coverage_contracts/
+
+# OpenZeppelin network files
+.openzeppelin/
+
+# Temporary files
+temp/
+tmp/
+
+# Hardhat local network
+unknown-*.json

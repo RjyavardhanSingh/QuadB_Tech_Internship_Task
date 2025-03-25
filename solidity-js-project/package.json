@@ -1,0 +1,36 @@
+{
+  "name": "solidity-js-project",
+  "version": "1.0.0",
+  "description": "A project to deploy and interact with a Solidity smart contract using JavaScript.",
+  "main": "scripts/deploy.js",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js --network localhost",
+    "interact": "npx hardhat run scripts/interact.js --network localhost",
+    "blockchain-demo": "npx hardhat run scripts/blockchain-demo.js --network localhost",
+    "test": "npx hardhat test",
+    "node": "npx hardhat node",
+    "clean": "npx hardhat clean"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.1",
+    "ethers": "^6.10.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.5",
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
+    "hardhat": "^2.19.4",
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0"
+  },
+  "keywords": [
+    "solidity",
+    "smart-contract",
+    "hardhat",
+    "javascript",
+    "ethereum"
+  ],
+  "author": "QuadB Tech Intern",
+  "license": "MIT"
+}
